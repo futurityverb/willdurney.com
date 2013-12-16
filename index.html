@@ -12,7 +12,7 @@
   <link href='http://fonts.googleapis.com/css?family=Philosopher:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
   
-  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href="css/index.css" rel="stylesheet" type="text/css" />
   
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,25 +21,58 @@
 
 <body>
     
-  <div id="wrap">
-  
-    <section id="content">
-  
-      <div class="center">
-        <img src="crystallus.jpg" alt="" />
-        
-        <h1>Hi, my name is Will Durney</h1>
-      </div>
+  <div id="outer">
+
+    <div id="bar">
+
+      <div id="wrap">
+
+        <img id="headshot" src="img/headshot.png" />
+
+        <div id="content">
       
-    </section>
-    
-    <?php include "nav.php" ?>
-    
+          <h1>Hi, my name is Will Durney</h1>
+
+          <h2>
+            <a href="mailto:wdurney@wesleyan.edu">email</a>
+            <span class="sep"></span>
+            <a href="Will-Durney-Resume.pdf">r&eacute;sum&eacute;</a>
+            <span class="sep"></span>
+            <a href="http://joomah.com">j&oacute;&ograve;mah</a>
+            <span class="sep"></span>
+            <a href="http://bajigga.com">bajigga</a>
+            <span class="sep"></span>
+            <a href="http://mazequestgame.com">maze quest</a>
+          </h2>
+          
+          <div id="about">
+            <p>
+              I'm a computer science major at <a href="http://wesleyan.edu">Wesleyan University</a>, in the class of 2014.
+            </p>
+
+            <p>
+              In class, I learn frameworks and teach languages. In my free time, I make puzzles, act in
+              musicals, sing in an a cappella group, and develop websites.
+            </p>
+
+            <p>
+              Please follow the links above to contact me or learn more. I'd love to chat.
+            </p>
+          </div>
+          
+        </div>
+      
+      </div>
+
+    </div>
+
+  <div id="cr">
+    <img src="img/cr.png" />
+    2013 
+  </div>
+
   </div>
     
-  <script type="text/javascript" src="http://yui.yahooapis.com/3.5.0/build/yui/yui-min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  
 </body>
 
 </html>
