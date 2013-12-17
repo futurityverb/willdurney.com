@@ -1,0 +1,9 @@
+AddType text/html .shtml
+AddHandler server-parsed .html
+AddHandler server-parsed .shtml
+Options Indexes FollowSymLinks Includes
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^willdurney.com$ [NC]
+RewriteRule ^(.*)$ http://willdurney.com/$1 [L,R=301]
